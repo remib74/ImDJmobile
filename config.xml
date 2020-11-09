@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="ImDJmobile" version="1.0.0" android-versionCode="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+
+<!-- versionCode is optional and Android only -->
+
+  <name>ImDJmobile</name>
+
+  <description>
+      chaque jour je vous propose une sélection de 5 photos
+  </description>
+
+  <author href="https://www.codingandscripting.fr/" email="remib.74@free.fr">
+      Dronesimaging
+  </author>
+  
+  <preference name="android-targetSdkVersion" value="28" />
+  
+  <preference name="phonegap-version" value="cli-6.5.0" />
+  
+  
+  <icon src="app.ico" platform="android" width="144" height="144" />	
+
+  <plugin name="cordova-plugin-inappbrowser"        source="npm" spec="~1.7.1" />
+  
+  </widget>
